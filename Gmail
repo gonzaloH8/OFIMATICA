@@ -1,0 +1,209 @@
+# GMAIL
+Enlace de datos Página
+Búsqueda avanzada: Encuentra correos específicos por remitente, asunto, palabras clave o archivos adjuntos.
+Organización: Uso de etiquetas (en lugar de carpetas), filtros automáticos para categorizar correos (Principal, Social, Promociones) y archivado.
+Inteligencia Artificial: Redacción inteligente (sugerencias de texto) y respuestas rápidas (respuestas sugeridas).
+Gestión de envíos: Programación de correos para enviarse más tarde y posibilidad de deshacer el envío.
+Productividad: Función "Posponer" (Snooze) para ocultar correos y volver a mostrarlos más tarde.
+Integración: Acceso directo a Google Chat y Google Meet desde la bandeja de entrada.
+Funciones sin conexión: Leer, responder y buscar mensajes sin conexión a internet.
+Seguridad: Detección de spam, bloqueo de remitentes y alertas de seguridad.
+
+# COMANDOS DE BUSQUEDA ENLACE
+- from: any@example.com (encuentra correos electrónicos enviado por una persona específica)
+- to: Encuentra correos electrónicos enviados a una persona específica
+cc: / bcc: Busque correos electrónicos que incluyan personas específicas en los campos “Cc” o “Cco”
+subject: Busque correos electrónicos por una palabra o frase en la línea de asunto
+after: 2004/04/16
+before: 2014/11/21
+older: 2024/9/19
+newer: 2000/3/11
+Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
+older_than:
+newer_than:
+Busca correos electrónicos anteriores o posteriores a un periodo determinado. Usa d(día), m(mes) o y(año)
+OR  from: amy OR from: david
+{}  {from: amy from: david}
+Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda
+AND from: amy AND to:david
+Encuentre correos electrónicos que coincidan con todos sus criterios de búsqueda
+- 
+Excluir correos electrónicos de sus criterios de búsqueda
+AROUND
+vacaciones AROUND 10 vacaciones
+Búsqueda de correos electrónicos con palabras cercanas. Usa el número para indicar cuantas palabras pueden estar separadas. Añade comillas para encontrar mensajes en los que la palabra que pongas primero permanecerá primera.
+label: amigos
+Encuentre correos electrónicos bajo una de sus etiquetas
+category:
+primary
+promociones
+Si utiliza categorías de bandeja de entrada, busque correos electrónicos en una de las categorías
+has:
+youtube
+drive
+documentos
+presentación
+Encuentre correos electrónicos que incluyan:
+Archivos adjuntos
+Imagenes en linea
+Videos de Youtube
+Archivos de unidad
+Documentos de Google
+Hojas de cálculo de Google
+Presentaciones de Google
+list: info@example.com
+Buscar correos electrónicos de una lista de correo
+filename: pdf
+Busque correos electrónicos que tengan archivos adjuntos con un determinado nombre o tipo de archivo
+“ “
+Busque correos electrónicos con una palabra o frase exacta
+( )
+Agrupar varios terminos de busqueda juntos
+in:anywhere película
+Encuentra correos en Gmail, incluidos los de Spam y Papelera
+in:snoozed
+Encuentra correos electrónicos que hayas pospuesto
+is:muted
+Encuentra correos electrónicos que hayas silenciado
+is: important
+is: starred
+is: unread
+is: read
+Buscar correos electrónicos por su estado:
+Importante
+Sembrado de estrellas
+No leído
+Leer
+has:yellow-star
+has:orange-star
+has:red-star
+has:purple-star
+has:blue-star
+has:green-star
+has:red-bang
+has:orange-guillemet
+has:yellow-bang
+has:green-check
+has:blue-info
+has:purple-question
+
+
+Esto se puede hacer si se configura diferentes opciones de estrella. Enlace de aprendizaje Página
+deliveredto: correo@example.com
+Encuentre correos electrónicos enviados a una dirección de correo electrónico específica.
+size: 1000
+larger: 10M
+smaller: 10
+Encuentre correos electrónicos por su tamaño.
++
+Encuentre correos electrónicos que coincidan exactamente con una palabra.
+rfc822msgid: correro@example.com
+Busque correos electrónicos con un encabezado de identificación de mensaje específico.
+has:userlabels
+has:nouserlabels
+Encuentra correos electrónicos con o sin etiqueta. Las etiquetas solo se agregan a un mensaje, no a una conversación completa.
+label:encryptedmail
+Encuentre correos electrónicos enviados con cifrado del lado del cliente.
+
+
+
+ATAJOS DE TECLADO OFICIALES
+En la pestaña avanzadas se encontrara varias funciones extra: marcando la opción Habilitar en Combinaciones de tecla personalizadas
+Redacción y chat
+Shift + Esc : Destacar la ventana principal
+Esc : Destacar el chat o redacción más reciente
+Ctrl + . : Ir al chat o redacción siguiente
+Ctrl + , : Ir al chat o redacción anterior
+Ctrl + Intro> : Enviar
+Ctrl + Shift + c : Añadir destinatarios a Cc
+Ctrl + Shift + b : Añadir destinatarios a Cco
+Ctrl + Shift + f : Acceder a dirección de remitente personalizada
+Ctrl + k : Insertar un enlace
+Ctrl + ; : Ir a la palabra anterior con errata
+Ctrl + ' : Ir a la palabra siguiente con errata
+Ctrl + m : Abrir sugerencias de ortografía
+Formato
+Ctrl + Shift + 5 : Fuente anterior
+Ctrl + Shift + 6 : Siguiente fuente
+Ctrl + Shift + - : Reducir el tamaño del texto
+Ctrl + Shift + + : Aumentar el tamaño del texto
+Ctrl + b : Negrita
+Ctrl + i : Cursiva
+Ctrl + u : Subrayado
+Ctrl + Shift + 7 : Lista numerada
+Ctrl + Shift + 8 : Lista con viñetas
+Ctrl + Shift + 9 : Citar
+Ctrl + [ : Reducir sangría
+Ctrl + ] : Aumentar sangría
+Ctrl + Shift + l : Alinear a la izquierda
+Ctrl + Shift + e : Centrar
+Ctrl + Shift + r : Alinear a la derecha
+Ctrl + Shift + , : Configurar de derecha a izquierda
+Ctrl + Shift + . : Configurar de izquierda a derecha
+Ctrl + \ : Eliminar formato
+Saltos
+g y después i : Ir a Recibidos
+g y después s : Ir a Conversaciones destacadas
+g y después t : Ir a Enviados
+g y después d : Ir a Borradores
+g y después a : Ir a Todos
+g y después c : Ir a Contactos
+g y después k : Ir a Tareas
+g y después l : Ir a etiqueta
+Selección de conversaciones
+* y después a : Seleccionar todas las conversaciones
+* y después n : Eliminar selección de todas las conversaciones
+* y después r : Seleccionar conversaciones leídas
+* y después u : Seleccionar conversaciones no leídas
+* y después s : Seleccionar conversaciones destacadas
+* y después t : Seleccionar conversaciones sin destacar
+Navegación
+u : Volver a la lista de conversaciones
+k / j : Conversación más reciente/anterior
+o o Intro : Abrir conversación; ampliar/minimizar conversación
+p / n : Leer mensaje anterior/siguiente
+` : Te lleva a la siguiente sección de Recibidos.
+~ : Te lleva a la anterior sección de Recibidos.
+Aplicación
+c : Redactar
+d : Redactar en una pestaña (sólo en la nueva interfaz)
+/ : Buscar mensaje
+q : Buscar contactos de chat
+. : Abrir el menú Más acciones
+v : Abrir el menú Mover a
+l : Abrir el menú Asignar la etiqueta
+? : Abrir la ayuda de las combinaciones de teclas
+Acciones
+**, :** Cambia el cursor a la barra de herramientas
+x : Seleccionar conversación
+s : Destacar/rotar entre superestrellas
+y : Eliminar etiqueta
+e : Archivar
+m : Silenciar la conversación
+! : Marcar como spam
+# : Eliminar
+r : Responder
+Shift + r : Responder en una ventana nueva
+a : Responder a todos
+Shift + a : Responder a todos en una ventana nueva
+f : Reenviar
+Shift + f : Reenviar en una ventana nueva
+Shift + n : Actualizar la conversación
+] / [ : Eliminar la conversación de la vista actual e ir a anterior/siguiente
+} / { : Archiva la conversación y dirige a la conversación anterior/siguiente
+z : Deshacer última acción
+Shift + i : Marcar como leído
+Shift + u : Marcar como no leído
+_ : Marca como no leídos los mensajes a partir del seleccionado.
++ o = : Marcar como importante
+- : Marcar como irrelevante
+; : Mostrar toda la conversación
+: : Ocultar toda la conversación
+Shift + t : Añadir conversación a Tareas
+Hangouts
+h y después m : Mostrar menú
+h y después a : Mostrar conversaciones archivadas
+h y después i : Mostrar solicitudes de conversaciones
+h y después c : Concentrarse en la lista de conversaciones
+g y después p o h y después p : Abrir teléfono
+
