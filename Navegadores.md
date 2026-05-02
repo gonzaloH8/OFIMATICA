@@ -1,3 +1,6 @@
+# EXTENSIONES
+- [Guardar Imagen Como](https://chromewebstore.google.com/detail/save-image-as-pdf/mifjkjljbbnepicdbbemkaafcjmplkaj?hl=es&pli=1)
+
 # PESTAÑAS
 - Ir a la barra de direcciones: Ctrl + L / Cmd + L.
 - Abrir una ventana nueva: Ctrl + N
