@@ -2,7 +2,7 @@
 - [ENLACE](https://support.google.com/docs/answer/179738?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchrome-os-shortcuts)
 
 <details>
-  <summaruy>ACCIONES COMUNES</summaruy>
+  <summary>ACCIONES COMUNES</summary>
 
 - Copiar:	Ctrl + c
 - Cortar:	Ctrl + x
@@ -32,7 +32,7 @@
 </details>
 
 <details>
-  <summaruy>FORMATO DE TEXTO</summaruy>
+  <summary>FORMATO DE TEXTO</summary>
 
 - Atrevido:	Ctrl + b
 - Escribir en cursiva: Ctrl + i
@@ -49,7 +49,7 @@
 </details> 
 
 <details>
-  <summaruy>FORMATO DE PARRAFO</summaruy>
+  <summary>FORMATO DE PARRAFO</summary>
 
 - Aumentar la sangría del párrafo:	Ctrl + ]
 - Disminuir la sangría del párrafo:	Ctrl + [
@@ -65,7 +65,7 @@
 </details>
 
 <details>
-  <summaruy>IMÁGENES Y DIBUJOS</summaruy>
+  <summary>IMÁGENES Y DIBUJOS</summary>
 
 - Texto alternativo:	Ctrl + Alt + y
 - Cambiar el tamaño a mayor tamaño:	Ctrl + Alt + k
@@ -83,7 +83,7 @@
 </details>
 
 <details>
-  <summaruy>COMENTARIOS</summaruy>
+  <summary>COMENTARIOS</summary>
 
 - Insertar comentario:	Ctrl + Alt + m
 - Hilo de discusión abierto:	Ctrl + Alt + Mayús + a
@@ -102,7 +102,7 @@
 </details>
 
 <details>
-  <summaruy>UTILICE ATAJOS DE TECLADO EN COMENTARIOS SELECCIONADOS</summaruy>
+  <summary>UTILICE ATAJOS DE TECLADO EN COMENTARIOS SELECCIONADOS</summary>
 
 - Responder al comentario actual:	R
 - Pasar al siguiente comentario:	J
@@ -111,10 +111,9 @@
 - Salir del comentario actual:	U
 
 </details>
-# 
 
 <details>
-  <summaruy>MENUS</summaruy>
+  <summary>MENUS</summary>
 
 - Menú contextual (clic derecho):	Ctrl + Mayús + x / Mayús + F10
 - Menú de archivo:	Alt + f
@@ -130,7 +129,7 @@
 </details>
 
 <details>
-  <summaruy>SELECCION DE TEXTO CON EL TECLADO</summaruy>
+  <summary>SELECCION DE TEXTO CON EL TECLADO</summary>
 
 - Seleccionar todo:	Ctrl + a
 - No seleccionar ninguno	Manteniendo presionada la tecla: Ctrl + Alt , presiona u y luego a
@@ -146,7 +145,7 @@
 </details>
 
 <details>
-  <summaruy>SELECCION DE TEXTO CON EL RATON</summaruy>
+  <summary>SELECCION DE TEXTO CON EL RATON</summary>
 
 - Seleccionar palabra	Haga doble clic
 - Ampliar la selección una palabra a la vez	Haga doble clic y arrastre
