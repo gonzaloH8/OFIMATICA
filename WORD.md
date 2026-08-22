@@ -1,6 +1,9 @@
+# ENLACES
 - [ENLACE](https://support.google.com/docs/answer/179738?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cchrome-os-shortcuts)
 
-# ACCIONES COMUNES
+<details>
+  <summaruy>ACCIONES COMUNES</summaruy>
+
 - Copiar:	Ctrl + c
 - Cortar:	Ctrl + x
 - Pegar:	Ctrl + v
@@ -26,7 +29,11 @@
 - Cambiar a sugerencia:	Ctrl + Alt + Mayús + x
 - Cambiar a visualización:	Ctrl + Alt + Mayús + c
 
-# FORMATO DE TEXTO
+</details>
+
+<details>
+  <summaruy>FORMATO DE TEXTO</summaruy>
+
 - Atrevido:	Ctrl + b
 - Escribir en cursiva: Ctrl + i
 - Subrayar: Ctrl + u
@@ -39,7 +46,11 @@
 - Aumentar el tamaño de la fuente:	Ctrl + Mayús + .
 - Disminuir el tamaño de la fuente:	Ctrl + Mayús + ,
 
-# FORMATO DE PARRAFO
+</details> 
+
+<details>
+  <summaruy>FORMATO DE PARRAFO</summaruy>
+
 - Aumentar la sangría del párrafo:	Ctrl + ]
 - Disminuir la sangría del párrafo:	Ctrl + [
 - Aplicar estilo de texto normal:	Ctrl + Alt + 0
@@ -51,7 +62,11 @@
 - Lista numerada:	Ctrl + Mayús + 7
 - Lista con viñetas:	Ctrl + Mayús + 8
 
-# IMÁGENES Y DIBUJOS
+</details>
+
+<details>
+  <summaruy>IMÁGENES Y DIBUJOS</summaruy>
+
 - Texto alternativo:	Ctrl + Alt + y
 - Cambiar el tamaño a mayor tamaño:	Ctrl + Alt + k
 - Redimensionar horizontalmente:	Ctrl + Alt + b
@@ -65,7 +80,11 @@
 - Girar en el sentido de las agujas del reloj 1°:	Alt + Mayús + Flecha derecha
 - Cerrar el editor de dibujos:	Ctrl + Esc / Mayús + Esc
 
-# COMENTARIOS
+</details>
+
+<details>
+  <summaruy>COMENTARIOS</summaruy>
+
 - Insertar comentario:	Ctrl + Alt + m
 - Hilo de discusión abierto:	Ctrl + Alt + Mayús + a
 - Introducir comentario actual	manteniendo presionada la tecla: Ctrl + Alt , presione e y luego c
@@ -80,14 +99,23 @@
 - Mover al comentario anterior	manteniendo presionada la tecla: Ctrl + Alt , presione p y luego c
 - Abrir historial de comentarios:	Ctrl + Alt + Mayús + a
 
-# UTILICE ATAJOS DE TECLADO EN COMENTARIOS SELECCIONADOS
+</details>
+
+<details>
+  <summaruy>UTILICE ATAJOS DE TECLADO EN COMENTARIOS SELECCIONADOS</summaruy>
+
 - Responder al comentario actual:	R
 - Pasar al siguiente comentario:	J
 - Mover al comentario anterior: K
 - Resolver el comentario actual:	mi
 - Salir del comentario actual:	U
 
-# MENUS
+</details>
+# 
+
+<details>
+  <summaruy>MENUS</summaruy>
+
 - Menú contextual (clic derecho):	Ctrl + Mayús + x / Mayús + F10
 - Menú de archivo:	Alt + f
 - Menú de edición: Alt + e
@@ -99,7 +127,11 @@
 - Menú de accesibilidad (presente cuando está habilitada la compatibilidad con el lector de pantalla):	Alt + a
 - Menú Herramientas de entrada (disponible en documentos en idiomas no latinos):	Ctrl + Alt + Mayús + k
 
-# SELECCION DE TEXTO CON EL TECLADO
+</details>
+
+<details>
+  <summaruy>SELECCION DE TEXTO CON EL TECLADO</summaruy>
+
 - Seleccionar todo:	Ctrl + a
 - No seleccionar ninguno	Manteniendo presionada la tecla: Ctrl + Alt , presiona u y luego a
 - Ampliar la selección un carácter:	Mayús + flecha izquierda/derecha
@@ -111,8 +143,14 @@
 - Seleccionar todos los elementos de la lista en el nivel actual:	manteniendo presionada la tecla Ctrl + Alt + Shift , presione e y luego o
 - Seleccionar varias secciones de texto	Después de seleccionar una sección de texto: presione Ctrl + Alt + Mayús + Flecha izquierda/derecha . Use la flecha izquierda/derecha para ir a otra sección de texto que también desee seleccionar.
 
-# SELECCION DE TEXTO CON EL RATON
+</details>
+
+<details>
+  <summaruy>SELECCION DE TEXTO CON EL RATON</summaruy>
+
 - Seleccionar palabra	Haga doble clic
 - Ampliar la selección una palabra a la vez	Haga doble clic y arrastre
 - Seleccionar párrafo	Triple clic
 - Ampliar la selección un párrafo a la vez	Triple clic + arrastrar
+
+</details>
