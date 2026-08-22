@@ -15,118 +15,38 @@
 <details>
   <summary>COMANDOS DE BUSQUEDA ENLACE</summary>
 
-- from: any@example.com (encuentra correos electrónicos enviado por una persona específica)
-- to: Encuentra correos electrónicos enviados a una persona específica
-- cc: / bcc: Busque correos electrónicos que incluyan personas específicas en los campos “Cc” o “Cco”
-- subject: Busque correos electrónicos por una palabra o frase en la línea de asunto
-- after: 2004/04/16
-- before: 2014/11/21
-- older: 2024/9/19
-- newer: 2000/3/11
+- Encuentra correos electrónicos enviado por una persona específica ```from: ```
 
-Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
-- older_than:
-- newer_than:
-
-Busca correos electrónicos anteriores o posteriores a un periodo determinado. Usa d(día), m(mes) o y(año)
-    
-    OR  from: amy OR from: david
-    {}  {from: amy from: david}
-
-Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda ```AND from: amy AND to:david```
-
-Encuentre correos electrónicos que coincidan con todos sus criterios de búsqueda
-- 
-Excluir correos electrónicos de sus criterios de búsqueda
-
-AROUND ```vacaciones AROUND 10 vacaciones```
-
-Búsqueda de correos electrónicos con palabras cercanas. Usa el número para indicar cuantas palabras pueden estar separadas. Añade comillas para encontrar mensajes en los que la palabra que pongas primero permanecerá primera.
-label: amigos
-
-Encuentre correos electrónicos bajo una de sus etiquetas ```category:```, ```primary```, ```promociones```
-
-Si utiliza categorías de bandeja de entrada, busque correos electrónicos en una de las categorías
-has:
-youtube
-drive
-documentos
-presentación
-
-Encuentre correos electrónicos que incluyan:
-Archivos adjuntos
-Imagenes en linea
-Videos de Youtube
-Archivos de unidad
-Documentos de Google
-Hojas de cálculo de Google
-Presentaciones de Google
-list: info@example.com
-
-Buscar correos electrónicos de una lista de correo
-filename: pdf
-
-Busque correos electrónicos que tengan archivos adjuntos con un determinado nombre o tipo de archivo
-“ “
-
-Busque correos electrónicos con una palabra o frase exacta
-( )
-
-Agrupar varios terminos de busqueda juntos
-in:anywhere película
-
-Encuentra correos en Gmail, incluidos los de Spam y Papelera
-in:snoozed
-
-Encuentra correos electrónicos que hayas pospuesto
-is:muted
-
-Encuentra correos electrónicos que hayas silenciado
-is: important
-is: starred
-is: unread
-is: read
-
-Buscar correos electrónicos por su estado:
-Importante
-Sembrado de estrellas
-No leído
-Leer
-has:yellow-star
-has:orange-star
-has:red-star
-has:purple-star
-has:blue-star
-has:green-star
-has:red-bang
-has:orange-guillemet
-has:yellow-bang
-has:green-check
-has:blue-info
-has:purple-question
-
-
-Esto se puede hacer si se configura diferentes opciones de estrella. Enlace de aprendizaje Página
-deliveredto: correo@example.com
-
-Encuentre correos electrónicos enviados a una dirección de correo electrónico específica.
-size: 1000
-larger: 10M
-smaller: 10
-
-Encuentre correos electrónicos por su tamaño.
-+
-Encuentre correos electrónicos que coincidan exactamente con una palabra.
-rfc822msgid: correro@example.com
-
-Busque correos electrónicos con un encabezado de identificación de mensaje específico.
-has:userlabels
-has:nouserlabels
-
-Encuentra correos electrónicos con o sin etiqueta. Las etiquetas solo se agregan a un mensaje, no a una conversación completa.
-label:encryptedmail
-
-Encuentre correos electrónicos enviados con cifrado del lado del cliente.
+- Encuentra correos electrónicos enviados a una persona específica ```to: any@example.com```
+- Busque correos electrónicos que incluyan personas específicas en los campos “Cc” o “Cco” ```cc: any@example.com``` / ```bcc: any@example.com```
+- Busque correos electrónicos por una palabra o frase en la línea de asunto ```subject: ejemplo```
+- Buscar correos recibidos durante un periodo determinado ```after: 2004/04/16``` / ```before: 2014/11/21``` / ```older: 2024/9/19``` / ```newer: 2000/3/11```
+- Busque correos electrónicos recibidos durante un periodo de tiempo determinado Usa d (día), m (mes) o y (año) ```older_than:1y``` / ```newer_than:2d```
+- Buscar correos que cumplan uno o varios de tus criterios de búsqueda ```OR  from: amy OR from: david``` / ```{}  {from: amy from: david}```
+- Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda ```AND from: amy AND to:david```
+- Encuentre correos electrónicos que coincidan con todos sus criterios de búsqueda
+- Excluir correos electrónicos de sus criterios de búsqueda  ```-``` / ```cena -película```
+- AROUND ```vacaciones AROUND 10 vacaciones```
+- Búsqueda de correos electrónicos con palabras cercanas ```label: amigos``` / ```label: important```
+- Encuentre correos electrónicos bajo una de sus etiquetas ```category:primary``` / ```category: promociones```
+- Buscar correos que incluyan Archivos, Imágenes, Videos, etc ```has: YouTube drive documentos presentación```
+- Buscar correos de una lista de distribución ```list: info@example.com```
+- Buscar correos que tengan archivos adjuntos con un determinado nombre o tipo de archivo ```filename: pdf```
+- Buscar correos con una palabra o una frase exactas ```“ “```
+- Agrupar varios términos de búsqueda ```( )```
+- Buscar correos en Gmail, incluidos los correos de las carpetas Spam y Papelera ```in:anywhere película```
+- Buscar mensajes archivados ```in:archive recordatorio pago```
+- Buscar correos que hayas pospuesto ```in:snoozed recordatorio cumpleaños```
+- Buscar correos que hayas silenciado ```is:muted subject:celebración equipo```
+- Buscar correos electrónicos por su estado: ```is: important``` / ```is: starred``` / ```is: unread``` / ```is: read```
+- Buscar correos enviados a una dirección de correo concreta ```deliveredto: correo@example.com```
+- Buscar correos por su tamaño ```size: 1000``` / ```larger: 10M``` / ```smaller: 10``` 
+- Destacar correos ```has:yellow-star``` / ```has:orange-star``` / ```has:red-star``` / ```has:purple-star``` / ```has:blue-star``` / ```has:green-star``` / ```has:red-bang``` / ```has:orange-guillemet``` / ```has:yellow-bang``` / ```has:green-check``` / ```has:blue-info``` / ```has:purple-question```
+- Buscar correos que coincidan exactamente con una palabra. ```+```
+- Buscar correos con una cabecera de ID de mensaje específico ```rfc822msgid: correro@example.com```
+- Buscar correos etiquetados o no etiquetados ```has:userlabels``` / ```has:nouserlabels```
+- Buscar correos enviados con cifrado del lado del cliente ```label:encryptedmail```
+- Buscar correos con una cabecera personalizada o un valor de cabecera específicos ```header:X-Google-Calendar-Notification:rsvpWithNote```
 
 </details>
 
