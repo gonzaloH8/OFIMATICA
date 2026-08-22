@@ -23,34 +23,36 @@
 - before: 2014/11/21
 - older: 2024/9/19
 - newer: 2000/3/11
-- Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
+
+Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
 - older_than:
 - newer_than:
 
 Busca correos electrónicos anteriores o posteriores a un periodo determinado. Usa d(día), m(mes) o y(año)
-- OR  from: amy OR from: david
-- {}  {from: amy from: david}
+    
+    OR  from: amy OR from: david
+    {}  {from: amy from: david}
 
-Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda
-AND from: amy AND to:david
+Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda ```AND from: amy AND to:david```
 
 Encuentre correos electrónicos que coincidan con todos sus criterios de búsqueda
 - 
 Excluir correos electrónicos de sus criterios de búsqueda
-AROUND
-vacaciones AROUND 10 vacaciones
+
+AROUND ```vacaciones AROUND 10 vacaciones```
+
 Búsqueda de correos electrónicos con palabras cercanas. Usa el número para indicar cuantas palabras pueden estar separadas. Añade comillas para encontrar mensajes en los que la palabra que pongas primero permanecerá primera.
 label: amigos
-Encuentre correos electrónicos bajo una de sus etiquetas
-category:
-primary
-promociones
+
+Encuentre correos electrónicos bajo una de sus etiquetas ```category:```, ```primary```, ```promociones```
+
 Si utiliza categorías de bandeja de entrada, busque correos electrónicos en una de las categorías
 has:
 youtube
 drive
 documentos
 presentación
+
 Encuentre correos electrónicos que incluyan:
 Archivos adjuntos
 Imagenes en linea
@@ -60,23 +62,31 @@ Documentos de Google
 Hojas de cálculo de Google
 Presentaciones de Google
 list: info@example.com
+
 Buscar correos electrónicos de una lista de correo
 filename: pdf
+
 Busque correos electrónicos que tengan archivos adjuntos con un determinado nombre o tipo de archivo
 “ “
+
 Busque correos electrónicos con una palabra o frase exacta
 ( )
+
 Agrupar varios terminos de busqueda juntos
 in:anywhere película
+
 Encuentra correos en Gmail, incluidos los de Spam y Papelera
 in:snoozed
+
 Encuentra correos electrónicos que hayas pospuesto
 is:muted
+
 Encuentra correos electrónicos que hayas silenciado
 is: important
 is: starred
 is: unread
 is: read
+
 Buscar correos electrónicos por su estado:
 Importante
 Sembrado de estrellas
@@ -98,19 +108,24 @@ has:purple-question
 
 Esto se puede hacer si se configura diferentes opciones de estrella. Enlace de aprendizaje Página
 deliveredto: correo@example.com
+
 Encuentre correos electrónicos enviados a una dirección de correo electrónico específica.
 size: 1000
 larger: 10M
 smaller: 10
+
 Encuentre correos electrónicos por su tamaño.
 +
 Encuentre correos electrónicos que coincidan exactamente con una palabra.
 rfc822msgid: correro@example.com
+
 Busque correos electrónicos con un encabezado de identificación de mensaje específico.
 has:userlabels
 has:nouserlabels
+
 Encuentra correos electrónicos con o sin etiqueta. Las etiquetas solo se agregan a un mensaje, no a una conversación completa.
 label:encryptedmail
+
 Encuentre correos electrónicos enviados con cifrado del lado del cliente.
 
 </details>
