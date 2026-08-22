@@ -1,5 +1,5 @@
 <details>
-  <summary>Enlace de datos Página</summary>
+  <summary>ENLACE DE DATOS PÁGINA</summary>
 
 - Búsqueda avanzada: Encuentra correos específicos por remitente, asunto, palabras clave o archivos adjuntos.
 - Organización: Uso de etiquetas (en lugar de carpetas), filtros automáticos para categorizar correos (Principal, Social, Promociones) y archivado.
