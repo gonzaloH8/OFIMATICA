@@ -125,7 +125,7 @@ En la pestaña avanzadas se encontrara varias funciones extra: marcando la opci�
 * l : Abrir el menú Asignar la etiqueta
 * ? : Abrir la ayuda de las combinaciones de teclas
 
-ACCIONES
+## ACCIONES
 * **, :** Cambia el cursor a la barra de herramientas
 * x : Seleccionar conversación
 * s : Destacar/rotar entre superestrellas
@@ -133,7 +133,7 @@ ACCIONES
 * e : Archivar
 * m : Silenciar la conversación
 * ! : Marcar como spam
-* # : Eliminar
+* ```#``` : Eliminar
 * r : Responder
 * Shift + r : Responder en una ventana nueva
 * a : Responder a todos
@@ -161,6 +161,3 @@ ACCIONES
 * g y después p o h y después p : Abrir teléfono
 
 </details>
-
-
-
