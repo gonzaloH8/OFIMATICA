@@ -17,20 +17,23 @@
 
 - from: any@example.com (encuentra correos electrónicos enviado por una persona específica)
 - to: Encuentra correos electrónicos enviados a una persona específica
-cc: / bcc: Busque correos electrónicos que incluyan personas específicas en los campos “Cc” o “Cco”
-subject: Busque correos electrónicos por una palabra o frase en la línea de asunto
-after: 2004/04/16
-before: 2014/11/21
-older: 2024/9/19
-newer: 2000/3/11
-Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
-older_than:
-newer_than:
+- cc: / bcc: Busque correos electrónicos que incluyan personas específicas en los campos “Cc” o “Cco”
+- subject: Busque correos electrónicos por una palabra o frase en la línea de asunto
+- after: 2004/04/16
+- before: 2014/11/21
+- older: 2024/9/19
+- newer: 2000/3/11
+- Busque correos electrónicos recibidos durante un periodo de tiempo determinado.
+- older_than:
+- newer_than:
+
 Busca correos electrónicos anteriores o posteriores a un periodo determinado. Usa d(día), m(mes) o y(año)
-OR  from: amy OR from: david
-{}  {from: amy from: david}
+- OR  from: amy OR from: david
+- {}  {from: amy from: david}
+
 Encuentre correos electrónicos que coincidan con uno o más de sus criterios de búsqueda
 AND from: amy AND to:david
+
 Encuentre correos electrónicos que coincidan con todos sus criterios de búsqueda
 - 
 Excluir correos electrónicos de sus criterios de búsqueda
@@ -118,48 +121,48 @@ Encuentre correos electrónicos enviados con cifrado del lado del cliente.
 En la pestaña avanzadas se encontrara varias funciones extra: marcando la opción Habilitar en Combinaciones de tecla personalizadas
 
 ## REDACCIÓN Y CHAT
-Shift + Esc : Destacar la ventana principal
-Esc : Destacar el chat o redacción más reciente
-Ctrl + . : Ir al chat o redacción siguiente
-Ctrl + , : Ir al chat o redacción anterior
-Ctrl + Intro> : Enviar
-Ctrl + Shift + c : Añadir destinatarios a Cc
-Ctrl + Shift + b : Añadir destinatarios a Cco
-Ctrl + Shift + f : Acceder a dirección de remitente personalizada
-Ctrl + k : Insertar un enlace
-Ctrl + ; : Ir a la palabra anterior con errata
-Ctrl + ' : Ir a la palabra siguiente con errata
-Ctrl + m : Abrir sugerencias de ortografía
+- Shift + Esc : Destacar la ventana principal
+- Esc : Destacar el chat o redacción más reciente
+- Ctrl + . : Ir al chat o redacción siguiente
+- Ctrl + , : Ir al chat o redacción anterior
+- Ctrl + Intro> : Enviar
+- Ctrl + Shift + c : Añadir destinatarios a Cc
+- Ctrl + Shift + b : Añadir destinatarios a Cco
+- Ctrl + Shift + f : Acceder a dirección de remitente personalizada
+- Ctrl + k : Insertar un enlace
+- Ctrl + ; : Ir a la palabra anterior con errata
+- Ctrl + ' : Ir a la palabra siguiente con errata
+- Ctrl + m : Abrir sugerencias de ortografía
 
 ## FORMATO
-Ctrl + Shift + 5 : Fuente anterior
-Ctrl + Shift + 6 : Siguiente fuente
-Ctrl + Shift + - : Reducir el tamaño del texto
-Ctrl + Shift + + : Aumentar el tamaño del texto
-Ctrl + b : Negrita
-Ctrl + i : Cursiva
-Ctrl + u : Subrayado
-Ctrl + Shift + 7 : Lista numerada
-Ctrl + Shift + 8 : Lista con viñetas
-Ctrl + Shift + 9 : Citar
-Ctrl + [ : Reducir sangría
-Ctrl + ] : Aumentar sangría
-Ctrl + Shift + l : Alinear a la izquierda
-Ctrl + Shift + e : Centrar
-Ctrl + Shift + r : Alinear a la derecha
-Ctrl + Shift + , : Configurar de derecha a izquierda
-Ctrl + Shift + . : Configurar de izquierda a derecha
-Ctrl + \ : Eliminar formato
+- Ctrl + Shift + 5 : Fuente anterior
+- Ctrl + Shift + 6 : Siguiente fuente
+- Ctrl + Shift + - : Reducir el tamaño del texto
+- Ctrl + Shift + + : Aumentar el tamaño del texto
+- Ctrl + b : Negrita
+- Ctrl + i : Cursiva
+- Ctrl + u : Subrayado
+- Ctrl + Shift + 7 : Lista numerada
+- Ctrl + Shift + 8 : Lista con viñetas
+- Ctrl + Shift + 9 : Citar
+- Ctrl + [ : Reducir sangría
+- Ctrl + ] : Aumentar sangría
+- Ctrl + Shift + l : Alinear a la izquierda
+- Ctrl + Shift + e : Centrar
+- Ctrl + Shift + r : Alinear a la derecha
+- Ctrl + Shift + , : Configurar de derecha a izquierda
+- Ctrl + Shift + . : Configurar de izquierda a derecha
+- Ctrl + \ : Eliminar formato
 
 ## SALTOS
-g y después i : Ir a Recibidos
-g y después s : Ir a Conversaciones destacadas
-g y después t : Ir a Enviados
-g y después d : Ir a Borradores
-g y después a : Ir a Todos
-g y después c : Ir a Contactos
-g y después k : Ir a Tareas
-g y después l : Ir a etiqueta
+- g y después i : Ir a Recibidos
+- g y después s : Ir a Conversaciones destacadas
+- g y después t : Ir a Enviados
+- g y después d : Ir a Borradores
+- g y después a : Ir a Todos
+- g y después c : Ir a Contactos
+- g y después k : Ir a Tareas
+- g y después l : Ir a etiqueta
 
 ## SELECCIÓN DE CONVERSACIONES
 * y después a : Seleccionar todas las conversaciones
@@ -170,57 +173,57 @@ g y después l : Ir a etiqueta
 * y después t : Seleccionar conversaciones sin destacar
 
 ## NAVEGACIÓN
-u : Volver a la lista de conversaciones
-k / j : Conversación más reciente/anterior
-o o Intro : Abrir conversación; ampliar/minimizar conversación
-p / n : Leer mensaje anterior/siguiente
-` : Te lleva a la siguiente sección de Recibidos.
-~ : Te lleva a la anterior sección de Recibidos.
+* u : Volver a la lista de conversaciones
+* k / j : Conversación más reciente/anterior
+*o o Intro : Abrir conversación; ampliar/minimizar conversación
+* p / n : Leer mensaje anterior/siguiente
+* ` : Te lleva a la siguiente sección de Recibidos.
+* ~ : Te lleva a la anterior sección de Recibidos.
 
 ## APLICACIÓN
-c : Redactar
-d : Redactar en una pestaña (sólo en la nueva interfaz)
-/ : Buscar mensaje
-q : Buscar contactos de chat
-. : Abrir el menú Más acciones
-v : Abrir el menú Mover a
-l : Abrir el menú Asignar la etiqueta
-? : Abrir la ayuda de las combinaciones de teclas
+* c : Redactar
+* d : Redactar en una pestaña (sólo en la nueva interfaz)
+* / : Buscar mensaje
+* q : Buscar contactos de chat
+* . : Abrir el menú Más acciones
+* v : Abrir el menú Mover a
+* l : Abrir el menú Asignar la etiqueta
+* ? : Abrir la ayuda de las combinaciones de teclas
 
 ACCIONES
-**, :** Cambia el cursor a la barra de herramientas
-x : Seleccionar conversación
-s : Destacar/rotar entre superestrellas
-y : Eliminar etiqueta
-e : Archivar
-m : Silenciar la conversación
-! : Marcar como spam
-# : Eliminar
-r : Responder
-Shift + r : Responder en una ventana nueva
-a : Responder a todos
-Shift + a : Responder a todos en una ventana nueva
-f : Reenviar
-Shift + f : Reenviar en una ventana nueva
-Shift + n : Actualizar la conversación
-] / [ : Eliminar la conversación de la vista actual e ir a anterior/siguiente
-} / { : Archiva la conversación y dirige a la conversación anterior/siguiente
-z : Deshacer última acción
-Shift + i : Marcar como leído
-Shift + u : Marcar como no leído
-_ : Marca como no leídos los mensajes a partir del seleccionado.
-+ o = : Marcar como importante
-- : Marcar como irrelevante
-; : Mostrar toda la conversación
-: : Ocultar toda la conversación
-Shift + t : Añadir conversación a Tareas
+* **, :** Cambia el cursor a la barra de herramientas
+* x : Seleccionar conversación
+* s : Destacar/rotar entre superestrellas
+* y : Eliminar etiqueta
+* e : Archivar
+* m : Silenciar la conversación
+* ! : Marcar como spam
+* # : Eliminar
+* r : Responder
+* Shift + r : Responder en una ventana nueva
+* a : Responder a todos
+* Shift + a : Responder a todos en una ventana nueva
+* f : Reenviar
+* Shift + f : Reenviar en una ventana nueva
+* Shift + n : Actualizar la conversación
+* ] / [ : Eliminar la conversación de la vista actual e ir a anterior/siguiente
+* } / { : Archiva la conversación y dirige a la conversación anterior/siguiente
+* z : Deshacer última acción
+* Shift + i : Marcar como leído
+* Shift + u : Marcar como no leído
+* _ : Marca como no leídos los mensajes a partir del seleccionado.
+* + o = : Marcar como importante
+* - : Marcar como irrelevante
+* ; : Mostrar toda la conversación
+* : : Ocultar toda la conversación
+* Shift + t : Añadir conversación a Tareas
 
 ## HANGOUTS
-h y después m : Mostrar menú
-h y después a : Mostrar conversaciones archivadas
-h y después i : Mostrar solicitudes de conversaciones
-h y después c : Concentrarse en la lista de conversaciones
-g y después p o h y después p : Abrir teléfono
+* h y después m : Mostrar menú
+* h y después a : Mostrar conversaciones archivadas
+* h y después i : Mostrar solicitudes de conversaciones
+* h y después c : Concentrarse en la lista de conversaciones
+* g y después p o h y después p : Abrir teléfono
 
 </details>
 
