@@ -1,7 +1,9 @@
 # EXTENSIONES
 - [Guardar Imagen Como](https://chromewebstore.google.com/detail/save-image-as-pdf/mifjkjljbbnepicdbbemkaafcjmplkaj?hl=es&pli=1)
 
-# PESTAÑAS
+<details>
+  <summary>PESTAÑAS</summary>
+
 - Ir a la barra de direcciones: Ctrl + L / Cmd + L.
 - Abrir una ventana nueva: Ctrl + N
 - Abrir una pestaña nueva: Ctrl + T
@@ -21,14 +23,22 @@
 - Adelante: Alt + flecha hacia la derecha
 - Detener: Esc
 
-# BUSCAR
+</details> 
+
+<details>
+  <summary>BUSCAR</summary>
+
 - Buscar en esta página: Ctrl + F
 - Buscar siguiente: F3 o Ctrl + G
 - Buscar anterior: Mayús + F3
 - Cerrar la barra de búsqueda: Esc
 - Poner el foco en la barra de direcciones para la búsqueda web: Ctrl + K o Ctrl + E
 
-# HISTORIAL Y MARCADORES
+</details>
+
+<details>
+  <summary>HISTORIAL Y MARCADORES</summary>
+
 - Abrir el historial de navegación: Ctrl + H
 - Abrir el historial de descargas: Ctrl + J
 - Abrir la ventana Borrar historial de navegación: Ctrl + Mayús + Supr
@@ -36,19 +46,31 @@
 - Guardar todas las pestañas como marcadores: Ctrl + Mayús + D
 - Mostrar la barra de marcadores: Ctrl + Mayús + B
 
-# HERRAMIENTAS
+</details> 
+
+<details>
+  <summary>HERRAMIENTAS</summary>
+
 - Descargas: Ctrl + J
 - Abrir herramientas para desarrolladores: F12
 - Inspeccionar elemento: Ctrl + Mayús + C
 - Perfiles: Ctrl + Mayús + E (Chrome), Mayús + F5 (Firefox)
 - Abrir consola web: Ctrl + Mayús + J
 - Administrador de marcadores: Ctrl + Mayús + O
+  
+</details>
 
-# BARRA DE DIRECCIONES
+<details>
+  <summary>BARRA DE DIRECCIONES</summary>
+
 - Poner el foco en la barra de direcciones: Ctrl + K
 - Añadir “www.” o “.com” a la barra de direcciones: Escribir el nombre del sitio y Ctrl + Entrar
 
-# ZOOM Y DESPLAZAMIENTO
+</details>
+
+<details>
+  <summary>ZOOM Y DESPLAZAMIENTO</summary>
+
 - Ampliar: Ctrl+
 - Reducir: Ctrl-
 - Zoom predeterminado: Ctrl + 0
@@ -58,7 +80,11 @@
 - Inicio de la página: Inicio
 - Final de la página: Fin
 
-# OTROS ATAJOS DE TECLADO
+</details>
+
+<details>
+  <summary>OTROS ATAJOS DE TECLADO</summary>
+
 - Imprimir la página actual: Ctrl + P
 - Guardar la página actual en su equipo: Ctrl + S
 - Abrir un archivo de su equipo: Ctrl + O
@@ -68,7 +94,11 @@
 - Abrir el código fuente de la página actual (no en IE): Ctrl + U
 - Abrir la ayuda: F1
 
-# ATAJOS ADICIONALES PARA CHROME
+</details>
+
+<details>
+  <summary>ATAJOS ADICIONALES PARA CHROME</summary>
+
 - Abrir una nueva ventana de incógnito: Ctrl + Mayús + N
 - Abrir el menú Chrome: Alt + F
 - Buscar desde cualquier punto de la página: Ctrl + K
@@ -80,7 +110,11 @@
 - Poner el foco en el elemento más a la derecha en la barra de herramientas de Chrome: F10
 - Cambiar el foco a cuadros de diálogo sin foco y todas las barras de herramientas: F6
 
-# ATAJOS ADICIONALES SAFARI
+</details> 
+
+<details>
+  <summary>ATAJOS ADICIONALES SAFARI</summary>
+
 - Mostrar visión general de pestañas: Mayús + Cmd + \
 - Abrir página en una nueva pestaña: Cmd + clic en el enlace
 - Abrir página en una nueva pestaña activa: Mayús + Cmd + Entrar después de escribir en el campo de búsqueda inteligente, O Mayús + Cmd + clic en el enlace
@@ -94,7 +128,11 @@
 - Añadir una página enlazada: Mayús + clic en un enlace a la página
 - Añadir la página actual: Mayús + Cmd + D
 
-# ATAJOS ADICIONALES FIREFOX
+</details>
+
+<details>
+  <summary>ATAJOS ADICIONALES FIREFOX</summary>
+
 - Abrir una nueva ventana privada: Ctrl + Mayús + P
 - Restaurar la última ventana cerrada: Ctrl + Mayús + N
 - Búsqueda rápida: /
@@ -107,3 +145,5 @@
 - Vista de diseño con respuesta: Ctrl + Mayús + M
 - Scratchpad: Mayús + F4
 - Código fuente de la página: Mayús + U
+
+</details>
